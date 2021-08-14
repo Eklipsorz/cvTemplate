@@ -10,18 +10,19 @@ html, body{
   
   
   .cv {
-  
     display: flex;
-    outline: 2px solid red;
-    
   }
   
   .cv-info {
     
-    width: 50vw;
+    width: 75vw;
     height: 100vh;
-    padding: 20px;
-    background: tomato;
+    padding: 2%;
+    background: #54728C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
   }
   
@@ -46,20 +47,25 @@ html, body{
   }
   
   .social-media-link {
-    color: #506AD4; 
+    color: #0A1126; 
     text-decoration: none;
     margin:0 5px;
   }
   
   .social-media-link:hover {
-    color: #ffffff;
+    color: #AEF2F2;
   }
   
+  .info-description {
+    letter-spacing: 1px;
+    font-size: 15px;
+
+  }
   /* ----------- */
   
   h2 {
     font-size: 32px;
-    margin: 24px 0 8px;
+    margin: 24px 0 2%;
   }
   
   h3 {
@@ -80,7 +86,7 @@ html, body{
   
   /* ----------- */
   
-  .cv-skills-and-experience {
+  .cv-data {
     padding: 0px 25px;
     
   }
@@ -121,16 +127,17 @@ html, body{
   
   .job, .company {
     color: #666666;
-    font-size: 25px;
+    font-size: 20px;
   }
   
   .fa-briefcase, .fa-building, .fa-calendar-alt {
     margin-right: 5px;
+    font-size: 25px;
   }
   
   .job-info {
-    
-    max-width: 55%;
+    outline: 5px red solid;
+    max-width: 85%;
     margin: 0 20px;
     display: flex;
     justify-content: space-between
