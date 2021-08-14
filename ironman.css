@@ -31,7 +31,7 @@ html, body{
 
   .cv-data {   
     width: 70%;
-    padding: 0 0;
+    padding: 0 1%;
  
   }
 
@@ -81,7 +81,7 @@ html, body{
   
   h2 {
     font-size: 32px;
-    margin: 24px 0 2%;
+    margin: 1% 0 2%;
   }
   
   h3 {
@@ -93,7 +93,7 @@ html, body{
   
   
   section {
-    margin: 0px;
+    margin-bottom: 10px;
   }
   
   p {
@@ -111,7 +111,13 @@ html, body{
   /*                              */
   /* -----------------------------*/
 
-  
+  .skill-section {
+
+
+    width: 95%;
+  }
+
+
   .skills {
     display: flex;
     margin-top: 20px;
