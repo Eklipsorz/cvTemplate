@@ -1,0 +1,144 @@
+html, body{
+    font-family: 'Lato', 'Noto Sans TC', sans-serif;
+   /* border: 5px solid black;*/
+    margin: 0px;
+    padding: 0px;
+    color: #333333;
+    background-color: #f6f7f8;
+  }
+  
+  
+  
+  .cv {
+  
+    display: flex;
+    outline: 2px solid red;
+    
+  }
+  
+  .cv-info {
+    
+    width: 50vw;
+    height: 100vh;
+    padding: 20px;
+    background: tomato;
+    
+  }
+  
+  .info-avatar {
+    
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  .info-avatar-image {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .name {
+    text-align: center;
+  }
+  
+  .social-media {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-media-link {
+    color: #506AD4; 
+    text-decoration: none;
+    margin:0 5px;
+  }
+  
+  .social-media-link:hover {
+    color: #ffffff;
+  }
+  
+  /* ----------- */
+  
+  h2 {
+    font-size: 32px;
+    margin: 24px 0 8px;
+  }
+  
+  h3 {
+    font-size: 21px;
+    margin: 0 0 8px;
+    font-weight: 500;
+    
+  }
+  
+  
+  section {
+   margin-bottom: 25px; 
+  }
+  
+  p {
+   color: #666666; 
+  }
+  
+  /* ----------- */
+  
+  .cv-skills-and-experience {
+    padding: 0px 25px;
+    
+  }
+  
+  
+  .skills {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  .skill {
+    max-width: 30%;  
+  }
+  
+  .skill-name {
+   
+    height: 30%;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .skill-description {
+   
+    height: 50%;
+    padding: 0px 10px;
+    border-top: 1px solid #999999;
+  }
+  
+  
+
+  /* ------- */
+  
+  
+  
+  .job, .company {
+    color: #666666;
+    font-size: 25px;
+  }
+  
+  .fa-briefcase, .fa-building, .fa-calendar-alt {
+    margin-right: 5px;
+  }
+  
+  .job-info {
+    
+    max-width: 55%;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between
+  }
+  
+  .job-content {
+    margin: 5px;
+  }
+  .experience-item {
+    margin-bottom: 20px;
+  }
